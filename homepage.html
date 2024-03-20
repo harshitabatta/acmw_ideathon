@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MOM CARE HUB- Home</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    /* Added CSS block for styling headings */
+    h1, h2 {
+      color: #333;
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+    /* End of added CSS block */
+
+    .header {
+      background-color: #6bdd7c;
+      color: rgb(255, 255, 255)000;
+      padding: 20px;
+      text-align: center;
+      font-size: 36px;
+      font-weight: bold;
+      width: 100%;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 20px;
+    }
+
+    .button-container {
+      margin-top: 20px;
+    }
+
+    .button {
+      background-color: #2ecc71;
+      color: #fff;
+      padding: 15px 25px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 18px;
+      transition: background-color 0.3s;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .button:hover {
+      background-color: #27ae60;
+    }
+
+    .pic-container {
+      margin-top: 20px;
+      width: 80%;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .pic {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      display: block;
+    }
+
+    .quiz-button-container,
+    .chatbot-button-container {
+      position: absolute;
+      bottom: 10%;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+    }
+
+    .contact-info {
+      margin-top: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="header">MOM CARE HUB</div>
+
+  <div class="container">
+    <div class="pic-container">
+      <img class="pic" src="C:/Users/Srujani/Downloads/undraw_Women_day_re_1xe8.png" alt="Quiz Image">
+      <div class="quiz-button-container button-container">
+        <button class="button" onclick="redirectToQuizPage()">Take Quiz</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="pic-container">
+      <img class="pic" src="C:/Users/Srujani/Downloads/undraw_happy_women_day_fbjt.png" alt="Chatbot Image">
+      <div class="chatbot-button-container button-container">
+        <button class="button" onclick="redirectToChatbot()">JOIN THE COMMUNITY!</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container contact-info">
+    <h2>Contact Information</h2>
+    <h1>MCTS</h1>
+    <p>Name Based web enabled tracking of pregnant women and children to ensure and monitor preventive, promotive, and curative health services to them.</p>
+
+    <h1>Perinatal Psychiatry Clinic - NIMHANS</h1>
+    <p>Programs: NIMHANS might have specific programs or clinics addressing perinatal mental health, including postpartum depression.</p>
+    <p>OPD Enquiry Number:<br>
+
+      080-26995530 (external)<br>
+
+      080-26972230 (external)<br>
+
+      For Hospital related enquiry:<br>
+
+      Medical Superintendent<br>
+
+      Dr. Muralidharan K,
+
+      Medical Superintendent <br> NIMHANS Hosur Road Bangalore – 560029, India Telephone: 91-080-2699520 <br> Email: ms@nimhans.ac.in
+    </p>
+    <p>For Administration related enquiry:<br>
+
+      Director’s Office<br>
+      Dr. Pratima Murthy,
+      Director<br>
+      NIMHANS Hosur Road Bangalore – 560029, India <br> Telephone: 91-080-26995001, 26995002<br> Email: dirstaff@nimhans.ac.in
+    </p>
+
+    <h1>Postpartum Support International (PSI) - India Chapter</h1>
+    <p>The PSI HelpLine is a toll-free telephone number anyone can call to get basic information, support, and resources.
+      The HelpLine is not a crisis hotline and does not handle emergencies</p>
+    <p>Call 2-800-944-4773 (4PPD)<br>
+
+      Text: 800-944-4773</p>
+  </div>
+
+  <script>
+    function redirectToQuizPage() {
+      window.location.href = "C:/Users/Srujani/Desktop/ACMw/quiz.html";
+    }
+
+    function redirectToChatbot() {
+      window.location.href = "C:/Users/Srujani/Desktop/ACMw/chatbot2.html";
+    }
+  </script>
+
+</body>
+
+</html>
